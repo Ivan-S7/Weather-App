@@ -92,17 +92,19 @@ const Weatherpanel = () =>{
     
   return(
     <>
-    <Form 
-      newLocation = {getLocation}  
-    />
+      <h5 className="description-1  animate__animated animate__fadeInDown">Access current weather data for any location on Earth including over 200,000 cities</h5>
 
-    <Card
+      <Form 
+      newLocation = {getLocation}  
+      />
+
+      <Card
       showData = {show}
       loadingData =  {loading}
       weather = {weather}
       showForecast = {showForecast}
       forecast = {forecast}
-    />
+      />
 
     
     

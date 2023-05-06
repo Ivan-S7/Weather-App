@@ -1,6 +1,28 @@
 body{
     background-color: #2f3544;
     text-align: center;
+    font-family: monospace, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-1{
+    color: bisque;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px
+}
+
+.animate__animated.animate__fadeInDown{
+    --animate-duration: 3s;
 }
 
 .input-group{
@@ -21,7 +43,7 @@ body{
 .card-temp{
     position: absolute;
     padding-left: 15px;
-    margin-top: 40%;
+    margin-top: 250px;
     font-size: 45px;
     font-weight: bold;
 }
@@ -36,7 +58,7 @@ body{
 .card-desc{
     position: absolute;
     padding-left: 15px;
-    margin-top: 50%;
+    margin-top: 310px;
     font-weight: bold;
 }
 

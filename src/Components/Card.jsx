@@ -76,11 +76,11 @@ const Card=({ showData, loadingData, weather, forecast, showForecast })=>{
                   </div>
                   <div className="col-md-8">
                     <div className="card-body mt-2 text-start">
-                      <h5 className="card-text">Sensacion Térmica: {weather.main.feels_like}°C</h5>
-                      <h5 className="card-text">Temperatura Maxima: {weather.main.temp_max}°C</h5>
-                      <h5 className="card-text">Temperatura Mínima: {weather.main.temp_min}°C</h5>
-                      <h5 className="card-text">Humedad: {weather.main.humidity}%</h5>
-                      <h5 className="card-text">Velocidad del Viento: {weather.wind.speed} km/h</h5>
+                      <h5 className="card-text">Feels Like: {weather.main.feels_like}°C</h5>
+                      <h5 className="card-text">Max. Temp.: {weather.main.temp_max}°C</h5>
+                      <h5 className="card-text">Min. Temp: {weather.main.temp_min}°C</h5>
+                      <h5 className="card-text">Humidity: {weather.main.humidity}%</h5>
+                      <h5 className="card-text">Wind Speed: {weather.wind.speed} km/h</h5>
                     </div>
 
                     <hr/>
